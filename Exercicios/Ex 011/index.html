@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+        <p>tente abrir este site em diversos dispositivos ou simplismente altere o tamanho da tela do navegador </p>
+        <picture>
+            <source media="(max-width: 750px)" srcset="imagem/imagem-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagem/imagem-m.png"type="image/png">
+            <img src="imagem/imagem-g.png" alt="Imagem flexivel">
+        </picture> 
+    <h1>reproduzindo audio</h1>
+        <p>Vamos aprender a reproduzir audios em HTML5</p>
+        <audio src="media/ringtone-126505.mp3" controls autoplay></audio>
+    <h1>reproduzindo video</h1>
+        <p>Vamos aprender a reproduzir videos em HTML5 que esteja hospedado localmente no priprio servidor</p>
+            <video src="media/137020-765458080_tiny.mp4" width="500" controls autoplay loop></video>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/G2hm-Ed3D7A?si=Rekum379Gf7TtktE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
