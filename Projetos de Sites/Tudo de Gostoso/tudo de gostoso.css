@@ -9,20 +9,20 @@ background-position:center;
 height:400px;
 }
 h1{
-margin:75px 0px 75px 200px;
+margin:10% 0% 5% 10%;
 color:#FF6B27;
 text-align:left;
 }
 h2 {
 color:#FF6B27;
 text-align:left;
-
 }
 
 .List{
-margin:10px 250px 10px 250px;
+margin: auto;
 text-align:justify;
 margin: center;
+padding: 3%;
 }
 .List:hover{
 cursor:url(cursor_ingredientes.png), auto;
@@ -34,8 +34,8 @@ cursor:url(cursor_ingredientes.png), auto;
   padding: 10px 20px; 
   border-radius: 10px; 
   display: inline-block; 
-  text-align: center; 
-  margin: 5px 5px 5px 240px;
+  text-align: center;
+  margin:3% 3% 2% 2%;
 }
 .preparo:hover{
 cursor:url(cursor_preparo.png), auto;
@@ -45,12 +45,14 @@ cursor: url(cursor_intrucoes.png), auto;
 
 }
 .preparo {
-margin:10px 250px 10px 250px;
+margin:auto;
+padding: 3%;
 text-align: justify;
 }
 .Instruções{
-margin:10px 250px 10px 250px;
+margin:auto;
 text-align: justify;
+padding: 3%;
 }
 
 footer{
@@ -61,5 +63,4 @@ height:50px;
 width:auto;
 padding:2px 5px 10px 5px;
 font-size:12px;
-
 }
