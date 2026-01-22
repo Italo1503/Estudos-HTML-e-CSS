@@ -9,7 +9,6 @@ background-position:center;
 height:400px;
 }
 h1{
-margin:10% 0% 5% 10%;
 color:#FF6B27;
 text-align:left;
 }
@@ -22,7 +21,6 @@ text-align:left;
 margin: auto;
 text-align:justify;
 margin: center;
-padding: 3%;
 }
 .List:hover{
 cursor:url(cursor_ingredientes.png), auto;
@@ -35,7 +33,6 @@ cursor:url(cursor_ingredientes.png), auto;
   border-radius: 10px; 
   display: inline-block; 
   text-align: center;
-  margin:3% 3% 2% 2%;
 }
 .preparo:hover{
 cursor:url(cursor_preparo.png), auto;
@@ -46,13 +43,12 @@ cursor: url(cursor_intrucoes.png), auto;
 }
 .preparo {
 margin:auto;
-padding: 3%;
 text-align: justify;
 }
 .Instruções{
 margin:auto;
 text-align: justify;
-padding: 3%;
+
 }
 
 footer{
